@@ -1,0 +1,10 @@
+# 数据库连接池配置模板
+# 使用方式：复制本文件为 src/druid.properties，并将密码改为你自己的 MySQL 密码
+driverClassName=com.mysql.cj.jdbc.Driver
+url=jdbc:mysql:///student_management_system
+username=root
+password=your_password
+initialSize=5
+maxActive=10
+maxWait=3000
+minIdle=3
